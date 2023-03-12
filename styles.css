@@ -1,16 +1,92 @@
-.mainHeader {
-    font-size: 100px;
-    font-family: 'Ubuntu', sans-serif;
-    font-style: italic;
+.header {
+    background-color: rgb(248, 221, 186);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px 20px 40px;
+    display: block;
+    box-shadow: 5px 7px rgb(202, 192, 151);
+}
+#main {
+    text-decoration:underline;
+    font-size: 60px;
     text-align: center;
-    border: solid 2px;
-    border-radius: 10px 0 10px 0;
-    background-color: rgb(5, 179, 223);
-    padding: 5px;
+    font-style: italic;
+    
+}
+.nadpisy {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.Ulists {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+a:link{
+    color: rgb(202, 149, 83)
+}
+a:hover {
+    color: rgb(234, 156, 61);
+    text-decoration: wavy;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb (202, 149, 83);
 }
 .img {
     display: block;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
+    border-radius: 10px;
+}
+#intro {
+   background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    display: block;
+    width: 50%;
+}
+.content {
+    background-color: bisque;
+    margin: 20px;
+    padding: 20px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+.content.steps {
+    background-color: rgb(255, 217, 159);
+}
+.button {
+    padding: 15px;
+    background-color: rgb(189, 235, 235);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.recept {
+   margin-left: 40%;
+   margin-right: 40%;
+   min-width: 20%;
+}
+.footer {
+    text-align: center;
+}
+.msg {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#input {
+    padding: 15px;
 }

@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin's recipe</title>
+    <title>Odin's recipes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="mainHeader">Odin Recipes</h1>
-    <h3>Welcome to my first official assignment in the Odin project!</h3>
-    <img src="/odin-recipes/foto/Chef.png" class="img">
-       <p>Here are some of my recipes:</p>
-        <div><ul>
-            <li><a href="recipes/lasagna.html">Lasagna</a></li>
-            <li><a href="recipes/rizek.html">Wiener Schnitzel</a></li>
-            <li><a href="recipes/Chilli-con-carne.html">Chilli Con Carne</a></li>
-        </ul></div>
-        <p>If you have any questions, don't be afraid to ask!</p>
-        <input type="text" placeholder="Your message">
-        <button>Send</button>
+    <div class="header">
+        <h1 id="main">Odin Recipes</h1>
+    </div>
+        <h3 class="nadpisy">Welcome to my first official assignment in the Odin project!</h3>
+        <img src="foto/chef.png" style="margin-top: 40px;" class="img">
+        <p class="nadpisy">Here are some of my favourite recipes:</p>
+            <div>
+                <ul class="Ulists">
+                    <li><a href="recipes/lasagna.html">Lasagna</a></li>
+                    <li><a href="recipes/rizek.html">Wiener Schnitzel</a></li>
+                    <li><a href="recipes/Chilli-con-carne.html">Chilli Con Carne</a></li>
+                </ul>
+            </div>
+        <div class="msg">
+        <p class="nadpisy">If you have any questions, <br>feel free to ask!</p>
+        <input id="input" type="text" placeholder="Your message">
+        <button class="button">Send</button>
+        </div>
 </body>
-<footer>In collaboration with Odin Project 2021</footer>
+<footer class="nadpisy footer">In collaboration with <em>Odin Project 2023</em></footer>
 </html>
